@@ -26,5 +26,23 @@ public class Main {
         friend = friend / 7;
         System.out.println(friend);
 
+var firstWeight = 78.2;
+var secondWeight = 82.7;
+var generalWeight = firstWeight + secondWeight;
+        System.out.println(generalWeight);
+   var differenceWeight = secondWeight - firstWeight;
+        System.out.println(differenceWeight);
+    var residualWeight = secondWeight % firstWeight;
+        System.out.println(residualWeight);
+
+var totalTime = 640;
+var workerTime = 8;
+var workerNumber = totalTime / workerTime;
+        System.out.println(workerNumber);
+  var moreWorkerNumber = workerNumber + 94;
+        System.out.println(moreWorkerNumber);
+  var moreTotalTime = moreWorkerNumber * 8;
+        System.out.println("Если в компании работает " + moreWorkerNumber + " человек, то всего " + moreTotalTime + " часов работы может быть поделено между сотрудниками");
+
     }
 }
